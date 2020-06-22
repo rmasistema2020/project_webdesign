@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
 header {
-  width: 80%;
+  width: 70%;
   margin: auto;
   height: 15vh;
   display: -webkit-box;
@@ -25,7 +25,7 @@ span {
   display: grid;
   -ms-grid-columns: 1fr 1fr;
       grid-template-columns: 1fr 1fr;
-  width: 80%;
+  width: 70%;
   margin: auto;
 }
 
@@ -255,5 +255,22 @@ a {
           transform-origin: right;
   -webkit-animation: fundo 1.3s ease-in-out 1s forwards;
           animation: fundo 1.3s ease-in-out 1s forwards;
+}
+.banner{
+  width: 10%;
+  background-color: white;
+  position: absolute;
+  top: 0;
+  right: 5;
+  bottom: 0;
+  z-index: 1;
+  -webkit-transform: scaleX(0);
+          transform: scaleX(0);
+  -webkit-transform-origin: right;
+          transform-origin: right;
+  -webkit-animation: fundo 1.3s ease-in-out 1s forwards;
+          animation: fundo 1.3s ease-in-out 1s forwards;
+
+
 }
 /*# sourceMappingURL=main.css.map */
